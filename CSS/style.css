@@ -1,0 +1,79 @@
+body{
+    background-color: #1c344f ;
+    
+}
+#formulario{
+    background-color: #EAF7FF;
+    border-radius: 9px;
+    font: verdana;
+}
+.container{
+    padding-left: 20%;
+    padding-right: 20%;
+}
+#form1{
+    padding-left: 7%;
+    padding-right: 7%;
+}
+
+#title{
+    color: #1c344f;
+    text-align: left;
+}
+
+#titleContainer{
+    background-color: #2fa6e0;
+    color: #FFFFFF;
+
+    border-bottom-right-radius: 300px 70px;
+    border-bottom-left-radius: 300px 70px;
+
+    
+    height: 125px;
+}
+
+#icon{
+    height: 95px;
+    width: 90px;
+    margin-left: 42%;
+    margin-top: 1%;
+
+
+}
+#button{
+    background: #2fa6e0;
+    width: 100%;
+
+}
+#button:hover{
+    background: #1c344f;
+    
+}
+input{
+    height: 50px;
+}
+@media (max-width: 992px) {
+    .container{
+        padding-left: 5%;
+        padding-right: 5%;
+
+    }
+    #title{
+        display: none;
+    }
+}
+
+#footer{
+    background-color: #1c344f;
+    color: #7CBADF;
+    width: 100vw;
+    font-size: small;
+}
+
+a{
+ color: #00121C;
+ font-size: small;
+}
+
+
+

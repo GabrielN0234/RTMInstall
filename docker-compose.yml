@@ -1,0 +1,28 @@
+version: '3'
+services:
+  php:
+    container_name: cmtinstall_php
+    build:
+      context: ./docker/php
+    volumes:
+      - ./:/var/www
+      - ./docker/php/custom.ini:/usr/local/etc/php/conf.d/custom.ini
+    tty: false
+    networks:
+      - default-net
+  web:
+    container_name: cmtinstall_web
+    image: nginx:latest
+    working_dir: /var/www
+    volumes:
+       - ./:/var/www
+       - ./docker/nginx/vhost.conf:/etc/nginx/conf.d/default.conf
+    ports:
+      - 8000:80
+    networks:
+       - default-net
+    tty: false
+networks:
+  default-net:
+volumes:
+  db-data:
