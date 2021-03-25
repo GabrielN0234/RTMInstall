@@ -1,11 +1,12 @@
 body{
-    background-color: #1c344f ;
+    background-color: #F8FDFF ;
     
 }
 #formulario{
-    background-color: #EAF7FF;
+    background-color: #1c344f;
     border-radius: 9px;
     font: verdana;
+    box-shadow: 5px 5px 20px black;
 }
 .container{
     padding-left: 20%;
@@ -22,9 +23,10 @@ body{
 }
 
 #titleContainer{
-    background-color: #2fa6e0;
+    background-color: #EAF7FF;
     color: #FFFFFF;
-
+    border-width: 10px;
+    border-color: #1c344f ;
     border-bottom-right-radius: 300px 70px;
     border-bottom-left-radius: 300px 70px;
 
@@ -33,10 +35,11 @@ body{
 }
 
 #icon{
-    height: 95px;
-    width: 90px;
-    margin-left: 42%;
-    margin-top: 1%;
+    height: 7.5em;
+    width: 7.5em;
+    margin-left: 40%;
+    margin-top: -0.5em;
+
 
 
 }
@@ -58,13 +61,17 @@ input{
         padding-right: 5%;
 
     }
-    #title{
-        display: none;
+    #icon{
+        height: 8em;
+        width: 8em;
+        margin-left: 32%;
+    
+    
     }
 }
 
 #footer{
-    background-color: #1c344f;
+    background-color: #F8FDFF;
     color: #7CBADF;
     width: 100vw;
     font-size: small;
