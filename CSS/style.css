@@ -7,7 +7,7 @@ body{
     border-radius: 9px;
     font: verdana;
     box-shadow: 5px 5px 20px black;
-    margin-top: 3%;
+    margin-top: 2%;
 }
 .container{
     padding-left: 20%;
@@ -70,7 +70,7 @@ input{
     
     }
     #formulario{
-        margin-top: 0%;
+        margin-top: 1%;
     }
 }
 
